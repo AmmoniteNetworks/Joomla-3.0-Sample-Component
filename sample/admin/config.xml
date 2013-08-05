@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="component"
+		label="COM_SAMPLE_FIELDSET_CONFIG_ITEMS_OPTIONS_LABEL"
+		description="COM_SAMPLE_FIELDSET_CONFIG_ITEMS_OPTIONS_DESC">
+	
+	</fieldset>
+
+	<fieldset
+		name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC"
+		>
+
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			class="inputbox"
+			filter="rules"
+			validate="rules"
+			component="com_sample"
+			section="component" />
+	</fieldset>
+</config>
